@@ -1,0 +1,179 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Bitter', serif;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+
+h2 {
+    font-size: 1.2rem; 
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+h3 {
+    font-size: 1rem;
+    color: #4d4d4d;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+p {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;   
+}
+
+.main-header li {
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-header a {
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.main-header {
+    margin-bottom: 60px;
+}
+
+
+/* ================================= 
+  Banner
+==================================== */
+
+.banner-photo {
+    width:90%;
+    background: #F8F8FF;
+    margin: 0 auto;
+}
+
+.photo {
+    max-width: 50%;
+    margin: 3% 25%;
+    border-radius: 100%;
+}
+
+.banner p {
+    font-size: 0.875rem;
+    padding: 10px;
+    color: #a6a6a6;
+    line-height: 1.5;
+}
+
+
+
+/* ================================= 
+  Portfolio
+==================================== */
+
+.container {
+    width: 95%;
+    margin: 80px auto;
+    
+}
+
+.projects p {
+    margin-bottom: 40px;
+    line-height: 1.5;
+    color: #708090;
+}
+
+
+
+/* ================================= 
+  Contact
+==================================== */
+
+
+#contact p {
+    font-size: 0.875rem;
+    padding: 10px;
+    color: #a6a6a6;
+    line-height: 1.5;   
+}
+
+.contact-details {
+    margin: -10px;
+    line-height: 0.5;
+}
+
+span {
+    color: #4d4d4d;
+}
+
+
+/* ================================= 
+ Footer
+==================================== */
+
+.footer {
+    margin-top: 50px;
+   padding: 0px 10px;
+}
+
+.name {
+    float: left;
+}
+
+.back-top {
+    float: right;
+}
+
+.back-top a {
+    color: black;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
