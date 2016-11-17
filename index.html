@@ -8,106 +8,127 @@
             <link rel="stylesheet" href="css/style.css">
         </head>
         <body>
-            <header class="main-header" id="top">
-                <h1>Tracy Inman</h1>
-                <ul>
+            <header class="main-header clearfix" id="top">
+                <h1 class="name">Tracy Inman</h1>
+                <ul class="main-nav">
                     <li><a href="#top">Home</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </header><!----- main header ----->
             
-            <div class="banner">
+            <div class="banner clearfix">
                 <div class="banner-photo">
                     <img class="photo" src="img/tracyinman.jpg" alt="Photo of Tracy Inman">
                 </div>
+                <div class="intro">
                 <p>Hi! I'm a front-end developer who loves responsive design and css.  I recently finsihed a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+                </div>
             </div><!----- banner ----->
             
             <div class="container">
-                <div id="portfolio">
+                <div id="portfolio" class="clearfix">
                     <h2>Portfolio</h2>
 
                     <article class="projects">
-                        <div class="project-photo">
-                            <img src="img/portfolio-1.png" alt="Marketing Page Portfolio">
+                        <div >
+                            <img class="project-photo" src="img/portfolio-1.png" alt="Marketing Page Portfolio">
                         </div>
                         <h3>Marketing Page</h3>
                         <p>This project shows the front page of a marketng website meant for a specific business I'm interested in.</p>
                     </article>
                     <article class="projects">
-                        <div class="project-photo">
-                            <img src="img/portfolio-2.png" alt="Search Page Portfolio">
+                        <div>
+                            <img class="project-photo" src="img/portfolio-2.png" alt="Search Page Portfolio">
                         </div>
                         <h3>Search Page</h3>
                         <p>This project searches through a specific database to find information that the user is trying to look up.</p>
                     </article>
                     <article class="projects">
-                        <div class="project-photo">
-                            <img src="img/portfolio-3.png" alt="Travel App Portfolio">
+                        <div>
+                            <img class="project-photo" src="img/portfolio-3.png" alt="Travel App Portfolio">
                         </div>
                         <h3>Travel App</h3>
                         <p>This project compares travel times based on different transporation methods and tells you the best one.</p>
                     </article>
                     <article class="projects">
-                        <div class="project-photo">
-                            <img src="img/portfolio-6.png" alt="Map Portfolio">
+                        <div>
+                            <img class="project-photo" src="img/portfolio-6.png" alt="Map Portfolio">
                         </div>
                         <h3>Map of Favorite Spots</h3>
                         <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
                     </article>
                     <article class="projects">
-                        <div class="project-photo">
-                            <img src="img/portfolio-5.png" alt="Photo Gallery Portfolio">
+                        <div>
+                            <img class="project-photo" src="img/portfolio-5.png" alt="Photo Gallery Portfolio">
                         </div>
                         <h3>Photo Gallery</h3>
                         <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
                     </article>
                     <article class="projects">
-                        <div class="project-photo">
-                            <img src="img/portfolio-4.png" alt="Calculator Portfolio">
+                        <div>
+                            <img class="project-photo" src="img/portfolio-4.png" alt="Calculator Portfolio">
                         </div>
                         <h3>Calculator</h3>
                         <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
                     </article>
                     <article class="projects">
-                        <div class="project-photo">
-                            <img src="img/portfolio-7.png" alt="Video Player Portfolio">
+                        <div>
+                            <img class="project-photo" src="img/portfolio-7.png" alt="Video Player Portfolio">
                         </div>
                         <h3>Video Player</h3>
                         <p>This project allows a video to be played, paused, fast-forwared and rewound from within the browser window.</p>
                     </article>
                     <article class="projects">
-                        <div class="project-photo">
-                            <img src="img/portfolio-14.png" alt="Sticky Notes Portfolio">
+                        <div>
+                            <img class="project-photo" src="img/portfolio-14.png" alt="Sticky Notes Portfolio">
                         </div>
                         <h3>Sticky Notes</h3>
                         <p>This project allows sticky notes to be written and stuck anywhere on the screen.</p>
                     </article>
                     <article class="projects">
-                        <div class="project-photo">
-                            <img src="img/portfolio-11.png" alt="FAQ Page Portfolio">
+                        <div>
+                            <img class="project-photo" src="img/portfolio-11.png" alt="FAQ Page Portfolio">
                         </div>
                         <h3>FAQ Page</h3>
                         <p>This project allows the user to search for the answer to a specific question, or to browse the answers for a particular topic.</p>
                     </article>
-                </div>
-            </div><!-----portfolio----->
+                </div><!-----portfolio----->
             
+            <div id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><h3>HTML5</h3></li>
+                <li><h3>CSS</h3></li>
+                <li><h3>Javascript</h3></li>
+                <li><h3>Project Management</h3></li>
+            </ul><!-----skills----->
+            
+            </div>
             <div id="contact">
                 <h2>Contact</h2>
-                <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+                <p class="contact2">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p><br>
                 <p class="contact-details">Phone <span> &emsp;+1 (111)555-1234</span></p>
                 <p class="contact-details">Email <span> &emsp;tracy@elitemail.org</span></p>
             </div>
+        </div>
             
             <footer class="footer">
-                <div class="name">
+                <div class="footer-name">
                     <p>Tracy Inman</p>
                 </div>
+                
                 <div class="back-top">
                     <p><a href="#top">Back to top</a></p>
                 </div>
+                
+                <ul class="footer-nav">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                </ul>
             </footer><!-----footer----->
                     
         </body>
