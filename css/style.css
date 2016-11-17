@@ -16,6 +16,10 @@ p {
     font-size: 0.7rem;
 }
 
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
 
 h2 {
     font-size: 1.2rem; 
@@ -179,7 +183,7 @@ ul {
 }
 
 span {
-    color: #4d4d4d;
+    color: #99bbff;
 }
 
 
@@ -348,6 +352,11 @@ span {
     
     .projects {
         width: 33.33333%;
+    }
+    
+    #portfolio p {
+        font-size: 0.7rem;
+
     }
     
     #portfolio .projects:nth-child(2n) {
