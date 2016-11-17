@@ -118,11 +118,14 @@ ul {
 }
 
 .intro {
-    font-size: 0.875rem;
     padding: 10px;
     margin: 0;
     color: #a6a6a6;
     line-height: 1.5;
+}
+
+.intro p {
+    font-size: 0.865rem;
 }
 
 
@@ -262,8 +265,8 @@ span {
     .projects {
         float: left;
         width: 50%;
-        padding-left: .5em;
-        padding-right: .5em;
+        padding-left: .6em;
+        padding-right: .6em;
     }
     
     #skills li {
