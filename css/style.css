@@ -59,7 +59,12 @@ h1, h2, h3 {
 .main-header li {
     text-align: center;
     list-style: none;
-    margin: 20px;
+    line-height: .8;
+    
+}
+
+.main-header a {
+    display: block;
 }
 
 .container {
@@ -346,7 +351,7 @@ span {
     
     .main-nav {
         float: right;
-        margin-right: -40px;
+        margin-right: -10px;
     }
     
     .main-nav a {
